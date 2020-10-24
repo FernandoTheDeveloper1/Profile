@@ -1,8 +1,74 @@
 style.css
-/*The following CSS properties:
 
+/*The following CSS properties:
  background, color, font-family, font-size,
  height, margin, padding, text-align
  Styled links using pseudo-classes
+Comments throughout your HTML and CSS that explain your code*
 
-Comments throughout your HTML and CSS that explain your code*/
+.body{
+  background-color:#FEFCFB;
+  font-family:Helvetica
+  , Arial;
+  color:#0A1128;
+}
+
+
+.nav{
+  background-color:#001F52;
+  font-family: Helvetica, Arial;
+  font-size:12px;
+  color:#FEFCFB;
+  text-align: center;
+  word-spacing: 100px;
+}
+
+
+
+
+a:link{
+  color:#FEFCFB;
+}
+
+a:visited{
+  color:#819EBA;
+}
+
+.main{
+  background-color: #F0EFEB;
+  font-family: Helvetica, Arial;
+}
+
+.header{
+  text-align: center;
+  font-family: Helvetica,Arial;
+  font-variant:small-caps;
+}
+
+
+
+.smallCaps::first-line{
+  font-variant: small-caps;
+}
+
+div.contact{
+  background-color: #034078;
+  color:#FEFCFB;
+  text-align: center;
+}
+
+div.contactLinks{
+  color:#FEFCFB;
+  background-color:#034078;
+  font-size: 12px;
+  word-spacing:50px;
+  text-align:center;
+}
+
+footer{
+  color:#819EBA;
+  font-family: Helvetica, Arial;
+  font-size: 10.5px;
+  text-align: right;
+  background-color:#001F52;
+}
