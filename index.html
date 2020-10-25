@@ -5,22 +5,30 @@
     <meta name="viewport" content="width=device-width">
     <title>Kristen Riley Profile</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-	  
+    <style>
+      body {
+        background-image: url(Code.png);
+      }
+    </style>
   </head>
-  <body class="body">
-    
+  
+<body>
+   
 <!--Navigation Bar-->
 <nav class="nav">
-	<a href="#home">Home</a>
-  <a href="About">About</a>
-  <a href="Contact">Contact</a>
+	<a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#Contact">Contact</a>
 </nav>
 
 <hr>
 
+				
+			
     <!--Name and title-->
 	<header>
-		<article id="home">
+    <a name="Home"></a>
+		<article>
     <div class="header">
 		<h1 class="name">Kristen Riley</h1>
 		<p class="smallCaps">Software Engineer</p>
@@ -30,16 +38,17 @@
 
 
 <main class="main">
-	
 	<article>
 		
-		<div>
+		
       <!--Intro-->
 		<h2>Hi, I'm Kristen Riley.</h2>
-		<!--An Intro section that contains the following information:
+		<hr>
+    <!--An Intro section that contains the following information:
 Who you are
 Where you are located-->
-      <p>I am a Thinkful software engineering student, based out of the Denver Metro area.</p>
+      <p>I am a Thinkful software engineering student,<br>
+      based out of the Denver Metro area.</p>
       <p>I'm interested in:
         <ul>
           <li>Exciting web design</li>
@@ -47,46 +56,51 @@ Where you are located-->
           <li>New projects</li>
         </ul>
 	
-			<div class= "image">
-				<img src="Code.png" width:100px>
-			</div>
+		
 
-		<section id="About">
+		<section>
+      <a name="About"></a>
 			<h3>About Me</h3>
 			<!--A description that shows your passion for web development and your willingness to work with others
 One or two sentences that describe other interests you have outside of web development-->
     <p>
-      I love learning new things about web development and design. I enjoy creating something exciting and fun. I look forward to working with other passionate developers.
+      I love learning new things about web development and design.<br>
+      I enjoy creating something exciting and fun.<br> 
+      I look forward to working with other passionate developers.
     </p>
     <p>
       When I'm not programming I enjoy:
         <ol>
           <li>Crotcheting</li>
           <li>Hanging out with the family</li>
-          <li>Enjoying the Rocky Mountains</li>
+          <li>Playing in the Rocky Mountains</li>
         </ol>
 		</section>
 
+    
 		<section>
-      <div class="contact"
-			<h3>Get In Touch</h3>
-			<!--A link to your LinkedIn profile
-A link to your GitHub profile
-A link to your email (optional)-->
-      </div>
-    <div class="contactLinks"
-    <p>
-      <a href="www.linkedin.com/in/kristenriley2">LinkedIn</a>
-      <a href="www.github.com">GitHub</a>
-    </p>
-    </div>
-		</section>
-	</article>
+      <a name="Contact"></a>
+        <div class="contact"
+			    <h3>Get In Touch</h3>
+        </div>
+        <div class="contactLinks"
+          <p>
+            <a href="www.linkedin.com/in/kristenriley2">LinkedIn</a>
+            <a href="https://github.com/Kristen800">GitHub</a>
+          </p>
+        </div>
+	  	</section>
+  	</article>
+
 </main>
+
 <hr>
+
 <footer>
 	<p>&#169; Kristen Riley</p>
 </footer>
+
+
     <script src="script.js"></script>
   </body>
 </html>
