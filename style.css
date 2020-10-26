@@ -136,7 +136,7 @@ div.contact{
   color:#FEFCFB;
   text-align: center;
 }
-/*contact links at the bottom. These do not change color*/
+/*contact links at the bottom. Links should change color.*/
 div.contactLinks{
   color:#FEFCFB;
   background-color:#034078;
