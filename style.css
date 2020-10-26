@@ -102,7 +102,7 @@ a:hover{
 .main{
   background-color: #F0EFEB;
   font-family: Helvetica, Arial;
-  text-align: left;
+  text-align: center;
   margin-top: 50px;
   margin-bottom:50px;
   margin-right:100px;
@@ -114,6 +114,7 @@ header{
   font-family: Helvetica,Arial;
   font-variant:small-caps;
   margin-left:25px;
+  margin-right: 25px;
   background-color: #F0EFEB;
 }
 
