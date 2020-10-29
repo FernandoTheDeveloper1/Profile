@@ -1,9 +1,32 @@
 
-/*image covers entire background*/
-html{
-  background-image: url(Code.png) no repeat center fixed;
+@media all and (min-width:800px){
+  section{
+    padding:0 10%;
+  }
+  .group{
+    flex-direction: row;
+  }
 }
 
+.group img{
+  width:100%;
+}
+
+.group{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item{
+  flex:1;
+  margin:10px;
+}
+
+.item-double{
+  flex:2;
+  margin:10px;
+}
 /*blocks and centers image*/
 img {
   display: block;
@@ -107,6 +130,10 @@ a:hover{
   margin-bottom:50px;
   margin-right:100px;
   margin-left:100px;
+}
+
+section{
+  margin-bottom:100px;
 }
 /*style for the header element, includes a font-variant*/
 header{
