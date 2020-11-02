@@ -126,7 +126,7 @@ header{
 }
 
 header h1{
-  color:#E1EDF0;
+  color:#B5D6E0;
   text-align: center;
   margin: 0;
   padding-top: 20px;
@@ -138,7 +138,7 @@ header h1{
 header nav{
   font-family: "Helvetica", "Arial";
   font-size:18px;
-  color:#E1EDF0;
+  color:#B5D6E0;
   display: flex;
   justify-content: center;
 }
@@ -149,13 +149,18 @@ header nav ul{
   list-style: none;
 }
 
+header nav ul li a{
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
 header nav ul li:last-child a {
   margin-right: 0;
 }
 
 /*three color changes for links using pseudo-classes*/
 a:link{
-  color:#E1EDF0;
+  color:#B5D6E0;
 }
 
 a:visited{
