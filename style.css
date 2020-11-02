@@ -159,15 +159,15 @@ header nav ul li:last-child a {
 }
 
 /*three color changes for links using pseudo-classes*/
-a:link{
+header nav ul li a:link{
   color:#B5D6E0;
 }
 
-a:visited{
+header nav ul li a:visited{
   color:#819EBA;
 }
 
-a:hover{
+header nav ul li a:hover{
   color:#88BFCF;
 }
 /*style changes for the main element, additional margin changes*/
