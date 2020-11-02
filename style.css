@@ -132,12 +132,18 @@ header h1{
   padding-top: 20px;
 }
 
+header p{
+  color:#E1EDF0;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
 /*specfic style for the navigation bar*/
 header nav{
   font-family: "Helvetica", "Arial";
   font-size:18px;
   color:#E1EDF0;
-  word-spacing: 100px;
   display: flex;
   justify-content: center;
 }
