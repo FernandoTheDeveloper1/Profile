@@ -1,11 +1,27 @@
 
-@media all and (min-width:800px){
+@media all and (min-width:600px){
   section{
     padding:0 10%;
   }
   .group{
     flex-direction: row;
   }
+
+  header {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
+ }
+
+ header h1 {
+   margin: 14px 0;
+   padding-top: 0;
+ }
+
+ header nav {
+   margin-top: 8px;
+ }
+
 }
 
 .group img{
@@ -98,20 +114,47 @@ hr{
   box-shadow: inset 0 12px 12px -12px #819EBA;
 }
 
-/*specfic style for the navigation bar*/
-.nav{
-  background-color:#001F52;
-  font-family: Helvetica, Arial;
-  font-size:18px;
-  color:#FEFCFB;
-  text-align: center;
-  word-spacing: 100px;
-  margin-left:0;
-  margin-right:0;
+/*style for the header element, includes a font-variant*/
+header{
+  font-family:"Helvetica","Arial";
+  font-variant:small-caps;
+  margin-left:25px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+  padding-right:15px;
+  background-color: #001F52;
 }
+
+header h1{
+  color:#E1EDF0;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+/*specfic style for the navigation bar*/
+header nav{
+  font-family: "Helvetica", "Arial";
+  font-size:18px;
+  color:#E1EDF0;
+  word-spacing: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul{
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
 /*three color changes for links using pseudo-classes*/
 a:link{
-  color:#FEFCFB;
+  color:#E1EDF0;
 }
 
 a:visited{
@@ -119,7 +162,7 @@ a:visited{
 }
 
 a:hover{
-  color:#001F52;
+  color:#88BFCF;
 }
 /*style changes for the main element, additional margin changes*/
 .main{
@@ -135,16 +178,7 @@ a:hover{
 section{
   margin-bottom:25px;
 }
-/*style for the header element, includes a font-variant*/
-header{
-  text-align: center;
-  font-family: Helvetica,Arial;
-  font-variant:small-caps;
-  margin-left:25px;
-  margin-right: 25px;
-  padding-right:15px;
-  background-color: #F0EFEB;
-}
+
 
 
 /*style changes to specific paragraph, using a pseudo element*/
