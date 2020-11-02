@@ -190,7 +190,7 @@ section{
 /*style changes to specific paragraph, using a pseudo element*/
 .smallCaps::first-line{
   font-variant: small-caps;
-  color:#E1EDF0;
+  color:#B5D6E0;
   text-align: center;
   margin: 0;
   padding-bottom: 20px;
