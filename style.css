@@ -132,12 +132,7 @@ header h1{
   padding-top: 20px;
 }
 
-header p{
-  color:#E1EDF0;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 20px;
-}
+
 
 /*specfic style for the navigation bar*/
 header nav{
@@ -190,7 +185,10 @@ section{
 /*style changes to specific paragraph, using a pseudo element*/
 .smallCaps::first-line{
   font-variant: small-caps;
-  color:#034078;
+  color:#E1EDF0;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .about{
