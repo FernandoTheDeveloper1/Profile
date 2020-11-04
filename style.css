@@ -22,6 +22,10 @@
    margin-top: 8px;
  }
 
+ header nav ul li a:hover{
+   color:#88BFCF;
+ }
+
 }
 
 .group img{
@@ -167,9 +171,7 @@ header nav ul li a:visited{
   color:#819EBA;
 }
 
-header nav ul li a:hover{
-  color:#88BFCF;
-}
+
 /*style changes for the main element, additional margin changes*/
 .main{
   background-color: #F0EFEB;
