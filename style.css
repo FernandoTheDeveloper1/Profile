@@ -73,14 +73,14 @@ form button {
     font-family: Tahoma;
     font-size: 16px;
     background: #001F52;
-    color:#B5D6E0;
+    color:#819EBA;
     margin: 0 8px 10px 0;
 }
 
 label{
   font-family:"Helvetica","Arial";
   font-variant:small-caps;
-  color:#034078;
+  color:#819EBA;
 }
 
 /*blocks and centers image*/
@@ -101,14 +101,14 @@ p{
 h1{
   text-align:center;
   font-family: Helvetica,Arial;
-  color:#034078;
+  color:#819EBA;
   font-size:30px;
 }
 /*style for all h2 elements, includes padding*/
 h2{
   text-align:center;
   font-family: Helvetica,Arial;
-  color:#034078;
+  color:#819EBA;
   font-size:20px;
   padding-top:10px;
 }
@@ -165,7 +165,7 @@ header{
 }
 
 header h1{
-  color:#B5D6E0;
+  color:#819EBA;
   text-align: center;
   margin: 0;
   padding-top: 20px;
@@ -177,7 +177,7 @@ header h1{
 header nav{
   font-family: "Helvetica", "Arial";
   font-size:18px;
-  color:#B5D6E0;
+  color:#819EBA;
   display: flex;
   justify-content: center;
 }
@@ -199,7 +199,7 @@ header nav ul li:last-child a {
 
 /*three color changes for links using pseudo-classes*/
 header nav ul li a:link{
-  color:#B5D6E0;
+  color:#819EBA;
 }
 
 header nav ul li a:visited{
