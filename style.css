@@ -227,7 +227,7 @@ section{
 /*style changes to specific paragraph, using a pseudo element*/
 .smallCaps::first-line{
   font-variant: small-caps;
-  color:#B5D6E0;
+  color:#819EBA;
   text-align: center;
   margin: 0;
   padding-bottom: 20px;
