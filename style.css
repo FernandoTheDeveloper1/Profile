@@ -26,6 +26,23 @@
    color:#88BFCF;
  }
 
+ /* ---  Contact Form Design --- */
+
+ form {
+   padding-right: 6px;
+   /* Fixed small sizing issue on the right */
+ }
+
+ form input,
+ form textarea {
+   width: 100%;
+   margin-bottom: 20px;
+ }
+
+ form textarea {
+   height: 160px;
+ }
+
 }
 
 .group img{
@@ -47,6 +64,25 @@
   flex:2;
   margin:0px;
 }
+
+/*form style*/
+form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background: #001F52;
+    color:#B5D6E0;
+    margin: 0 8px 10px 0;
+}
+
+label{
+  font-family:"Helvetica","Arial";
+  font-variant:small-caps;
+  color:#034078;
+}
+
 /*blocks and centers image*/
 img {
   display: block;
